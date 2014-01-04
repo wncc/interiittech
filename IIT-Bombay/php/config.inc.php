@@ -5,5 +5,6 @@ $config = array(
 'dbUser'=>'root',
 'dbPass'=>'toor',
 'dbName'=> 'shout',
-'fileDir'=>'/var/www/shout/img'
+'fileDir'=>'/var/www/shout/img',
+'fileEdir'=>'img'
 );

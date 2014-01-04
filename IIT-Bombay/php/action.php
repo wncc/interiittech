@@ -18,6 +18,7 @@ switch ($_REQUEST['action']){
   break;
  case 'post':
   echo post();
+  break;
  default:
   $wrap=new Wrapper();
   $wrap->error("Method not implemented");
@@ -27,19 +28,36 @@ switch ($_REQUEST['action']){
 
 function post(){
 	global $dbLink,$config;
-	$wrap-new Wrapper();
+	$wrap=new Wrapper();
 	if($_REQUEST['title']==""){
 		$wrap->error("Please enter a title");
 	}
 	if($_REQUEST['description']==""){
-		$wrap->error("Please enter a title");
+		$wrap->error("Please enter a description");
 	}
 	if($_REQUEST['lat']=="" || $_REQUEST['long']==""){
 		$wrap->error("Coordinates not set");
 	}
+
+	$st=$dbLink->prepare("insert into posts(name,description,lat,llong,rating,anonrating,user) values(:t,:d,:lt,:lg,0,0,:u)");
+	$st->execute(array('t'=>$_REQUEST['title'],'d'=>$_REQUEST['description'],'lt'=>$_REQUEST['lat'],'lg'=>$_REQUEST['long'],'u'=>$_SESSION['user']));
+	$pid=$dbLink->lastInsertId();
+	$wrap->addKey('id',$pid);
+	if($_FILES['pic']){
+		if ($_FILES["pic"]["error"] > 0){
+			$wrap->error("File error: " . $_FILES["file"]["error"]);
+			return $wrap;
+		}
+		move_uploaded_file($_FILES["file"]["tmp_name"],$config['fileDir']."/img$pid");
+		$st=$dbLink->prepare('alter table posts set imgpath=:i where id=:pi');
+		$st->execute(array('i'=>"$fileEdir/img$pid",'pi'=>$pid));
+		$wrap->addKey('imgURL',"$fileEdir/img$pid");
+	}
+	
+	return $wrap->getJSON();
 }
 function login($u,$p){
-	global $_SESSION;
+	global $dbLink;
 	$wrap=new Wrapper();
 	$st=$dbLink->prepare("select username from users where username=:u and password=MD5(:p)");
 	$st->execute(array('u'=>$u,'p'=>$p));
