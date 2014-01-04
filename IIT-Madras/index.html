@@ -1,0 +1,168 @@
+<html>
+	<head>
+		<link href='http://fonts.googleapis.com/css?family=News+Cycle' rel='stylesheet' type='text/css'>
+		<title>Mobile Ticketing</title>
+		<style type="text/css">
+			#container{
+				margin:0px;
+				padding:2px;
+				position:absolute;
+				top:0px;
+				left:0px;
+				right:0px;
+				bottom:0px;
+				background: #e4f5fc; /* Old browsers */
+				background: -moz-linear-gradient(top,  #e4f5fc 0%, #bfe8f9 50%, #9fd8ef 51%, #2ab0ed 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e4f5fc), color-stop(50%,#bfe8f9), color-stop(51%,#9fd8ef), color-stop(100%,#2ab0ed)); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top,  #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 51%,#2ab0ed 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top,  #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 51%,#2ab0ed 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top,  #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 51%,#2ab0ed 100%); /* IE10+ */
+				background: linear-gradient(to bottom,  #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 51%,#2ab0ed 100%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4f5fc', endColorstr='#2ab0ed',GradientType=0 ); /* IE6-9 */
+			}
+			.button{
+				border: solid 4px #FFFFFF;
+				margin:5px;
+				height:60px;
+				padding:5px;
+				font-family:'News Cycle';
+				font-size:20px;
+				font-weight:bold;
+				background: #a90329; /* Old browsers */
+				background: -moz-linear-gradient(top,  #a90329 0%, #8f0222 44%, #6d0019 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a90329), color-stop(44%,#8f0222), color-stop(100%,#6d0019)); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* IE10+ */
+				background: linear-gradient(to bottom,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+				color:#fff;
+				cursor:pointer;
+				text-align:center;
+				width: 41%;
+				float: left;
+				border-radius:10px;
+			}
+			.heading{
+				border: solid 1px #D3D0D0;
+				margin:2px;
+				margin-bottom:6px;
+				height:30px;
+				padding:6px;
+				font-family:'News Cycle';
+				font-size:20px;
+				font-weight:bold;
+				color:#464343;
+				cursor:pointer;
+				text-align:center;
+				background: rgb(245,246,246); /* Old browsers */
+				background: -moz-linear-gradient(top,  rgba(245,246,246,1) 0%, rgba(219,220,226,1) 21%, rgba(184,186,198,1) 49%, rgba(221,223,227,1) 80%, rgba(245,246,246,1) 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(245,246,246,1)), color-stop(21%,rgba(219,220,226,1)), color-stop(49%,rgba(184,186,198,1)), color-stop(80%,rgba(221,223,227,1)), color-stop(100%,rgba(245,246,246,1))); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top,  rgba(245,246,246,1) 0%,rgba(219,220,226,1) 21%,rgba(184,186,198,1) 49%,rgba(221,223,227,1) 80%,rgba(245,246,246,1) 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top,  rgba(245,246,246,1) 0%,rgba(219,220,226,1) 21%,rgba(184,186,198,1) 49%,rgba(221,223,227,1) 80%,rgba(245,246,246,1) 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top,  rgba(245,246,246,1) 0%,rgba(219,220,226,1) 21%,rgba(184,186,198,1) 49%,rgba(221,223,227,1) 80%,rgba(245,246,246,1) 100%); /* IE10+ */
+				background: linear-gradient(to bottom,  rgba(245,246,246,1) 0%,rgba(219,220,226,1) 21%,rgba(184,186,198,1) 49%,rgba(221,223,227,1) 80%,rgba(245,246,246,1) 100%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f6f6', endColorstr='#f5f6f6',GradientType=0 ); /* IE6-9 */
+
+			}
+			a{
+				text-decoration:none;
+			}
+			.footitem{
+				background: rgb(254,255,232); /* Old browsers */
+				background: -moz-linear-gradient(top,  rgba(254,255,232,1) 0%, rgba(214,219,191,1) 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(254,255,232,1)), color-stop(100%,rgba(214,219,191,1))); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top,  rgba(254,255,232,1) 0%,rgba(214,219,191,1) 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top,  rgba(254,255,232,1) 0%,rgba(214,219,191,1) 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top,  rgba(254,255,232,1) 0%,rgba(214,219,191,1) 100%); /* IE10+ */
+				background: linear-gradient(to bottom,  rgba(254,255,232,1) 0%,rgba(214,219,191,1) 100%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffe8', endColorstr='#d6dbbf',GradientType=0 ); /* IE6-9 */
+				border-radius:10px;
+				float:left;
+				margin-right:10px;
+				border:solid 2px #999;
+			}
+			#footer{
+				padding-top:10px;
+				bottom:20px;
+				margin-left:25px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="container">
+				<div class="heading">
+					Options
+				</div>
+			<a href="server.html">
+				<div class="button">
+					Connect To Server
+				</div>
+			</a>
+			<a href="ticket.html">
+				<div class="button">
+					Purchase Ticket
+				</div>
+			</a>
+			<a href="p2pwallet.html">
+				<div class="button">
+					P2P Wallet Setup
+				</div>
+			</a>
+			<a href="idproof.html">
+				<div class="button">
+					Profile Setup
+				</div>
+			</a>
+		
+			<div id="footer">
+				<div class="footitem">
+					<a href="index.html">
+						<img src="Home_icon_black.png" style="height:50px;">
+					</a>
+					<span style="margin-left: 2px; position: absolute;font-family: 'News Cycle';font-size: 14px;background: #473737;color: #fff;margin-top: 5px;padding-left: 5px;padding-right: 5px;border-radius: 5px;">
+						Home
+					</span>
+				</div>
+				<div class="footitem">
+					<a href="ticket.html">
+						<img src="ticket.png" style="height:50px;">
+					</a>
+					<span style="margin-left: 3px; position: absolute;font-family: 'News Cycle';font-size: 14px;background: #473737;color: #fff;margin-top: 5px;padding-left: 5px;padding-right: 5px;border-radius: 5px;">
+						Ticket
+					</span>
+				</div>
+				<div class="footitem">
+					<a href="p2pwallet.html">
+						<img src="wallet-icon-614x460.png" style="height:50px;  opacity:0.8;">
+					</a>
+					<span style="margin-left: 10px; position: absolute;font-family: 'News Cycle';font-size: 14px;background: #473737;color: #fff;margin-top: 5px;padding-left: 5px;padding-right: 5px;border-radius: 5px;">
+						Wallet
+					</span>
+				</div>
+				<div class="footitem">
+					<a href="idproof.html">
+						<img src="84-512.png" style="height:50px; opacity:0.8;">
+					</a>
+					<span style="margin-left: 2px; position: absolute;font-family: 'News Cycle';font-size: 14px;background: #473737;color: #fff;margin-top: 5px;padding-left: 5px;padding-right: 5px;border-radius: 5px;">
+						Profile
+					</span>
+				</div>
+			</div>
+			
+			<div id="stn" style="float: left;
+font-family: 'News Cycle';
+font-size: 18px;
+font-weight: bold;
+color: #1F1717;margin-left:15px;"><br><br>
+				<img src="wifi.png" style="height:26px; ">
+				<span style="">
+					Connected to 
+				</span> 
+				<span style="">
+					 Airoli Server 2 [DCN1WW]
+				</span>
+			<div>
+		</div>
+	</body>
+</html>
