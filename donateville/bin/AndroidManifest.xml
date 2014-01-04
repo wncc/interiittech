@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bleedred"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.Light">
+        <activity
+            android:name="com.example.bleedred.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.bleedred.RegActivity"
+            android:label="@string/title_activity_reg" >
+        </activity>
+        <activity
+            android:name="com.example.bleedred.NearbyActivity"
+            android:label="@string/title_activity_logged_in" >
+        </activity>
+        <activity
+            android:name="com.example.bleedred.RequestsActivity"
+            android:label="@string/title_activity_requests" >
+        </activity>
+        <activity
+            android:name="com.example.bleedred.ProfileActivity"
+            android:label="@string/title_activity_profile" >
+        </activity>
+        <activity
+            android:name="com.example.bleedred.LeadersActivity"
+            android:label="@string/title_activity_leaders" >
+        </activity>
+        <activity
+            android:name="com.example.bleedred.LoggedInActivity"
+            android:label="@string/title_activity_logged_in" >
+        </activity>
+    </application>
+
+</manifest>
