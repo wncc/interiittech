@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:paddingTop="2dp" >
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_gravity="left"
+        android:orientation="vertical" >
+        
+        <Button
+            android:id="@+id/activity_record_video_initBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="doClick"
+            android:text="@string/activity_record_video_initBtn_text" />
+        
+        <Button 
+            android:id="@+id/activity_record_video_startBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_record_video_startBtn_text"
+            android:onClick="doClick" />
+        
+        <Button 
+            android:id="@+id/activity_record_video_stopBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_record_video_stopBtn_text"
+            android:onClick="doClick" />
+        
+        <Button 
+            android:id="@+id/activity_record_video_startPlayBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_record_video_reviewBtn_text"
+            android:onClick="doClick" />
+        
+        <Button 
+            android:id="@+id/activity_record_video_stopPlayBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_record_video_stopReviewBtn_text"
+            android:onClick="doClick"  />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_gravity="right"
+        android:background="@drawable/codecooks_splashscreen"
+        android:orientation="vertical" >
+        
+        <TextView 
+            android:id="@+id/activity_record_video_recordingMsg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_record_video_info_text"/>
+        
+        <VideoView 
+            android:id="@+id/activity_record_video_videoView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="5dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

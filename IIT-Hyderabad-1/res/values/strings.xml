@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">template</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="activity_splash_ImgViewContentDescription">Spalsh Screen Background Image</string>
+    
+    <string name="activity_main_TviewTipTitle">Tip Of the day</string>
+    <string name="activity_main_TviewTipText">XYZ</string>
+    <string name="activity_main_BtnLeftText"></string>
+    <string name="activity_main_BtnRightText"></string>
+    
+    <string name="activity_complain_TViewSelectItem">Select Media</string>
+    <string name="activity_complain_BtnSelectItemText">Select Item</string>
+    <string name="activity_complain_TViewSubject">Subject</string>
+    <string name="activity_complain_ETxtSubjectHint">Subject</string>
+    <string name="activity_complain_TViewDescriptionText">Description</string>
+    <string name="activity_complain_ETxtDescriptionHint">Description</string>
+    <string name="activity_complain_BtnSubmitText">Submit</string>
+    
+    <string name="activity_complain_uploadProgress_TView">UPLOAD IN PROGRESS</string>
+    <string name="activity_complain_uploadProgress_message_TView">Thanks</string>
+    
+    <string name="activity_upload_attachment_threeoptions_BtnTakePictureText">Take Picture</string>
+    <string name="activity_upload_attachment_threeoptions_BtnTakeVideoText">Take Video</string>
+    <string name="activity_upload_attachment_threeoptions_BtnFromGalleryText">Use Gallery</string>
+    
+    <string name="activity_record_video_initBtn_text">Initialize</string>
+    <string name="activity_record_video_startBtn_text">Start</string>
+    <string name="activity_record_video_stopBtn_text">Stop</string>
+    <string name="activity_record_video_reviewBtn_text">Review</string>
+    <string name="activity_record_video_stopReviewBtn_text">Stop Review</string>
+    <string name="activity_record_video_info_text">READY</string>
+    <string name="activity_registration_main_alreadyBtn_text">Already have verification code</string>
+    <string name="activity_registration_sendmessage_imageView_contDesc"></string>
+    <string name="activity_registration_sendmessage_wait_text">       Please Wait     </string>
+    
+    
+    <string name="activity_settings_header">AppName :: Settings</string>
+    <string name="activity_settings_BtnSaveText">Save</string>
+    <string name="activity_settings_TviewTextSetting1">Setting 1</string>
+    <string name="activity_settings_HintEtText1">Setting 1 Hint</string>
+    
+    <string name="activity_registration_main_text_onetimeregister">\n \n  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nBy Clicking next you agree to following terms and condition:- \n \nThis is an agreement between redAkt Inc., an Indian corporation (“redAkt"), the owner and operator of www.redAkt.com (the “redAkt”), the redAkt software, (collectively, including all content provided by redAkt through redAkt , the "redAkt Service", or the "Service"), and you (“you” or “You”), a user of the Service. BY USING THE SERVICE, YOU ACKNOWLEDGE AND AGREE TO THESE TERMS OF SERVICE, AND REDAKT'S PRIVACY POLICY, WHICH CAN BE FOUND AT http://www.redAkt.com/legal/#Privacy, AND WHICH ARE INCORPORATED HEREIN BY REFERENCE. If you choose to not agree with any of these terms, you may not use the Service.\n These Terms of Service apply to all users of the redAkt Service. Information provided by our users through the redAkt Service may contain links to third party websites that are not owned or controlled by redAkt. redAkt has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third party websites. In addition, redAkt will not and cannot censor or edit the content of any third-party site. By using the Service, you expressly acknowledge and agree that redAkt shall not be responsible for any damages, claims or other liability arising from or related to your use of any third-party website.\n Subject to your compliance with these Terms of Service, redAkt hereby grants you permission to use the Service, provided that: \n (i) your use of the Service as permitted is solely for your personal use, and you are not permitted to resell or charge others for use of or access to the Service, or in any other manner inconsistent with these Terms of Service; \n (ii) you will not duplicate, transfer, give access to, copy or distribute any part of the Service in any medium without redAkt's prior written authorization; \n(iii) you will not attempt to reverse engineer, alter or modify any part of the Service; and (iv) you will otherwise comply with the terms and conditions of these Terms of Service and Privacy Policy.\n In order to access and use the features of the Service, you acknowledge and agree that you will have to provide redAkt with your mobile phone number. You expressly acknowledge and agree that in order to provide the Service, redAkt may periodically access your contact list and/or address book on your mobile device to find and keep track of mobile phone numbers of other users of the Service. When providing your mobile phone number, you must provide accurate and complete information. You hereby give your express consent to redAkt to access your contact list and/or address book for mobile phone numbers in order to provide and use the Service.You must notify redAkt immediately of any breach of security or unauthorized use of your mobile phone. Although redAkt will not be liable for your losses caused by any unauthorized use of your account, you may be liable for the losses of redAkt or others due to such unauthorized use.\n YOU AGREE THAT YOUR USE OF THE redAkt SERVICE SHALL BE AT YOUR SOLE RISK. TO THE FULLEST EXTENT PERMITTED BY LAW, redAkt, ITS OFFICERS, DIRECTORS, EMPLOYEES, AND AGENTS DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, IN CONNECTION WITH THE SERVICE AND YOUR USE THEREOF. redAkt MAKES NO WARRANTIES OR REPRESENTATIONS ABOUT THE ACCURACY OR COMPLETENESS OF THIS SERVICE'S CONTENT AND ASSUMES NO LIABILITY OR RESPONSIBILITY FOR ANY (I) ERRORS, MISTAKES, OR INACCURACIES OF CONTENT, (II) PERSONAL INJURY OR PROPERTY DAMAGE, OF ANY NATURE WHATSOEVER, RESULTING FROM YOUR ACCESS TO AND USE OF OUR SERVICE, (III) ANY UNAUTHORIZED ACCESS TO OR USE OF OUR SERVERS AND/OR ANY AND ALL PERSONAL INFORMATION AND/OR FINANCIAL INFORMATION STORED THEREIN, (IV) ANY INTERRUPTION OR CESSATION OF TRANSMISSION TO OR FROM OUR SERVICE, (IV) ANY BUGS, VIRUSES, TROJAN HORSES, OR THE LIKE WHICH MAY BE TRANSMITTED TO OR THROUGH OUR SERVICE THROUGH THE ACTIONS OF ANY THIRD PARTY, AND/OR (V) ANY ERRORS OR OMISSIONSIN ANY CONTENT OR FOR ANY LOSS OR DAMAGE OF ANY KIND INCURRED AS A RESULT OF THE USE OF ANY CONTENT POSTED, EMAILED, TRANSMITTED, OR OTHERWISE MADE AVAILABLE VIA THE redAkt SERVICE. redAkt DOES NOT WARRANT, ENDORSE, GUARANTEE, OR ASSUME RESPONSIBILITY FOR ANY PRODUCT OR SERVICE ADVERTISED OR OFFERED BY A THIRD PARTY THROUGH THE redAkt SERVICE OR ANY HYPERLINKED WEBSITE OR FEATURED IN ANY USER STATUS SUBMISSION OR OTHER ADVERTISING, AND redAkt WILL NOT BE A PARTY TO OR IN ANY WAY BE RESPONSIBLE FOR MONITORING ANY TRANSACTION BETWEEN YOU AND THIRD-PARTY PROVIDERS OF PRODUCTS OR SERVICES. AS WITH THE PURCHASE OF A PRODUCT OR SERVICE THROUGH ANY MEDIUM OR IN ANY ENVIRONMENT, YOU SHOULD USE YOUR BEST JUDGMENT AND EXERCISE CAUTION WHERE APPROPRIATE. AND AGAIN, USE THIS JUST FOR FUN.\n IN NO EVENT SHALL redAkt, ITS OFFICERS, DIRECTORS, EMPLOYEES, OR AGENTS, BE LIABLE TO YOU FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, PUNITIVE, OR CONSEQUENTIAL DAMAGES WHATSOEVER RESULTING FROM ANY (I) ERRORS, MISTAKES, OR INACCURACIES OF CONTENT, (II) PERSONAL INJURY OR PROPERTY DAMAGE, OF ANY NATURE WHATSOEVER, RESULTING FROM YOUR ACCESS TO AND USE OF OUR SERVICE, (III) ANY UNAUTHORIZED ACCESS TO OR USE OF OUR SECURE SERVERS AND/OR ANY AND ALL PERSONAL INFORMATION AND/OR FINANCIAL INFORMATION STORED THEREIN, (IV) ANY INTERRUPTION OR CESSATION OF TRANSMISSION TO OR FROM OUR SERVERS, (IV) ANY BUGS, VIRUSES, TROJAN HORSES, OR THE LIKE, WHICH MAY BE TRANSMITTED TO OR THROUGH OUR SERVICE BY ANY THIRD PARTY, (V) ANY ERRORS OR OMISSIONS IN ANY CONTENT OR FOR ANY LOSS OR DAMAGE OF ANY KIND INCURRED AS A RESULT OF YOUR USE OF ANY CONTENT POSTED, EMAILED, TRANSMITTED, OR OTHERWISE MADE AVAILABLE VIA THE redAkt CLIENT, WHETHER BASED ON WARRANTY, CONTRACT, TORT, OR ANY OTHER LEGAL THEORY, AND WHETHER OR NOT THE COMPANY IS ADVISED OF THE POSSIBILITY OF SUCH DAMAGES, AND/OR (VI) THE DISCLOSURE OF INFORMATION PURSUANT TO THESE TERMS OF SERVICE OR PRIVACY POLICY. THE FOREGOING LIMITATION OF LIABILITY SHALL APPLY TO THE FULLEST EXTENT PERMITTED BY LAW IN THE APPLICABLE JURISDICTION.\nYOU SPECIFICALLY ACKNOWLEDGE THAT redAkt SHALL NOT BE LIABLE FOR USER SUBMISSIONS OR THE DEFAMATORY, OFFENSIVE, OR ILLEGAL CONDUCT OF ANY THIRD PARTY AND THAT THE RISK OF HARM OR DAMAGE FROM THE FOREGOING RESTS ENTIRELY WITH YOU.\n You agree to defend, indemnify and hold harmless redAkt, its parent corporation, officers, directors, employees and agents, from and against any and all claims, damages, obligations, losses, liabilities, costs or debt, and expenses (including but not limited to attorney's fees) arising from: (i) your use of and access to the redAkt Service; (ii) your violation of any term of these Terms of Service; (iii) your violation of any third party right, including without limitation any copyright, property, or privacy right; or (iv) any claim that one of your Status Submissions caused damage to a third party. This defense and indemnification obligation will survive these Terms of Service and your use of the redAkt Service. We don't support or encourage illegal consumption of alcohol or tobacco, so there.</string>
+    <string name="activity_registration_main_edit_text_plus91">+91</string>
+    <string name="activity_registration_main_edit_hint_phoneNumber">##########</string>
+    <string name="activity_registration_main_text_yourPhoneNumber">Your Phone Number</string>
+    <string name="activity_registration_main_button_text">Next</string>
+    <string name="activity_registration_main_image_contentDescription_text">Header Image</string>
+    
+    <string name="activity_registration_enterCode_text_onetimeregister">Enter your verification Code which you will receive on your phone..\n If you have not received the code within 1 minute, press back button and enter your phone number again</string>
+    <string name="activity_registration_enterCode_edit_hint_verificationCode">######</string>
+    <string name="activity_registration_enterCode_text_verificationCode">Verification Code</string>
+    <string name="activity_registration_enterCode_button_text">Next</string>
+    <string name="activity_registration_enterCode_image_contentDescription_text">Header Image</string>
+    
+    
+    <string name="activity_registration_thanks_text_finalregistrationwords">Thanks for registering with us.\n Please reboot your phone to complete registration</string>
+    <string name="activity_registration_thanks_button_text">\t OK \t</string>
+    <string name="activity_registration_thanks_image_contentDescription_text">Header Image</string>
+
+</resources>

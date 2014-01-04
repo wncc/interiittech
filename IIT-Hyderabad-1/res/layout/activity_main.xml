@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_main_TviewTipTitle"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:layout_gravity="center" />
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:padding="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:minHeight="320dp"
+        android:background="#100088cc" >
+	    
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/codecooks_splashscreen" />
+	    
+    </ScrollView>
+
+    <Button
+        android:id="@+id/activity_main_BtnFeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_main_BtnLeftText"
+        android:background="@drawable/ic_notification"
+        android:layout_gravity="left"
+        android:layout_marginLeft="15dp" />
+
+    <Button
+        android:id="@+id/activity_main_BtnSpeak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_main_BtnRightText"
+        android:layout_gravity="right"
+        android:background="@drawable/ic_speak_small"
+        android:layout_marginTop="-30dp"
+        android:layout_marginRight="15dp" />
+
+</LinearLayout>
