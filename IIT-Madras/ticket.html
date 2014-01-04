@@ -1,0 +1,267 @@
+<html>
+	<head>
+		<link href='http://fonts.googleapis.com/css?family=News+Cycle' rel='stylesheet' type='text/css'>
+		<title>Mobile Ticketing</title>
+		<style type="text/css">
+			#container{
+				margin:0px;
+				padding:2px;
+				position:absolute;
+				top:0px;
+				left:0px;
+				right:0px;
+				bottom:0px;
+				background: #e4f5fc; /* Old browsers */
+				background: -moz-linear-gradient(top,  #e4f5fc 0%, #bfe8f9 50%, #9fd8ef 51%, #2ab0ed 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e4f5fc), color-stop(50%,#bfe8f9), color-stop(51%,#9fd8ef), color-stop(100%,#2ab0ed)); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top,  #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 51%,#2ab0ed 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top,  #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 51%,#2ab0ed 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top,  #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 51%,#2ab0ed 100%); /* IE10+ */
+				background: linear-gradient(to bottom,  #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 51%,#2ab0ed 100%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4f5fc', endColorstr='#2ab0ed',GradientType=0 ); /* IE6-9 */
+			}
+			.button{
+				margin:5px;
+				height:30px;
+				padding:5px;
+				font-family:Arial;
+				font-size:20px;
+				font-weight:bold;
+				background: #a90329; /* Old browsers */
+				background: -moz-linear-gradient(top,  #a90329 0%, #8f0222 44%, #6d0019 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a90329), color-stop(44%,#8f0222), color-stop(100%,#6d0019)); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* IE10+ */
+				background: linear-gradient(to bottom,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+				color:#fff;
+				cursor:pointer;
+				text-align:center;
+			}
+			.heading{
+				border: solid 1px #D3D0D0;
+				margin:2px;
+				height:30px;
+				padding:6px;
+				font-family:Arial;
+				font-size:20px;
+				font-weight:bold;
+				color:#464343;
+				cursor:pointer;
+				text-align:center;
+				background: rgb(245,246,246); /* Old browsers */
+				background: -moz-linear-gradient(top,  rgba(245,246,246,1) 0%, rgba(219,220,226,1) 21%, rgba(184,186,198,1) 49%, rgba(221,223,227,1) 80%, rgba(245,246,246,1) 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(245,246,246,1)), color-stop(21%,rgba(219,220,226,1)), color-stop(49%,rgba(184,186,198,1)), color-stop(80%,rgba(221,223,227,1)), color-stop(100%,rgba(245,246,246,1))); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top,  rgba(245,246,246,1) 0%,rgba(219,220,226,1) 21%,rgba(184,186,198,1) 49%,rgba(221,223,227,1) 80%,rgba(245,246,246,1) 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top,  rgba(245,246,246,1) 0%,rgba(219,220,226,1) 21%,rgba(184,186,198,1) 49%,rgba(221,223,227,1) 80%,rgba(245,246,246,1) 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top,  rgba(245,246,246,1) 0%,rgba(219,220,226,1) 21%,rgba(184,186,198,1) 49%,rgba(221,223,227,1) 80%,rgba(245,246,246,1) 100%); /* IE10+ */
+				background: linear-gradient(to bottom,  rgba(245,246,246,1) 0%,rgba(219,220,226,1) 21%,rgba(184,186,198,1) 49%,rgba(221,223,227,1) 80%,rgba(245,246,246,1) 100%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f6f6', endColorstr='#f5f6f6',GradientType=0 ); /* IE6-9 */
+
+			}
+			a{
+				text-decoration:none;
+			}
+			.field{
+				margin:2px;
+				padding:6px;
+				font-family:Arial;
+				font-size:20px;
+				font-weight:bold;
+				color:#464343;
+				cursor:pointer;
+				text-align:center;
+			}
+			.value{
+				margin:2px;
+				padding:6px;
+				font-family:Arial;
+				font-size:16px;
+				font-weight:bold;
+				color:#464343;
+				cursor:pointer;
+				text-align:center;
+			}
+			input, select, option {  
+				padding: 5px;  
+				font-size: 15px;  
+				text-shadow: 0px 1px 0px #fff;  
+				outline: none;  
+				background: -webkit-gradient(linear, left top, left bottombottom, from(#bcbcbe), to(#ffffff));  
+				background: -moz-linear-gradient(top,  #bcbcbe,  #ffffff);  
+				-webkit-border-radius: 3px;  
+				-moz-border-radius: 3px;  
+				border-radius: 3px;  
+				border: 1px solid #717171;  
+				-webkit-box-shadow: 1px 1px 0px #efefef;  
+				-moz-box-shadow: 1px 1px 0px #efefef;  
+				box-shadow:  1px 1px 0px #efefef;  
+				text-align:center;
+				width:200px;
+			} 
+			.formdiv{
+				margin-bottom:5px;
+				background: rgb(250,198,149); /* Old browsers */
+				background: -moz-linear-gradient(top,  rgba(250,198,149,1) 0%, rgba(245,171,102,1) 47%, rgba(239,141,49,1) 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(250,198,149,1)), color-stop(47%,rgba(245,171,102,1)), color-stop(100%,rgba(239,141,49,1))); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top,  rgba(250,198,149,1) 0%,rgba(245,171,102,1) 47%,rgba(239,141,49,1) 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top,  rgba(250,198,149,1) 0%,rgba(245,171,102,1) 47%,rgba(239,141,49,1) 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top,  rgba(250,198,149,1) 0%,rgba(245,171,102,1) 47%,rgba(239,141,49,1) 100%); /* IE10+ */
+				background: linear-gradient(to bottom,  rgba(250,198,149,1) 0%,rgba(245,171,102,1) 47%,rgba(239,141,49,1) 100%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fac695', endColorstr='#ef8d31',GradientType=0 ); /* IE6-9 */
+			}
+			.disconnect{
+				background: rgb(248,80,50); /* Old browsers */
+				background: -moz-linear-gradient(top,  rgba(248,80,50,1) 0%, rgba(241,111,92,1) 50%, rgba(246,41,12,1) 51%, rgba(240,47,23,1) 71%, rgba(231,56,39,1) 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(248,80,50,1)), color-stop(50%,rgba(241,111,92,1)), color-stop(51%,rgba(246,41,12,1)), color-stop(71%,rgba(240,47,23,1)), color-stop(100%,rgba(231,56,39,1))); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top,  rgba(248,80,50,1) 0%,rgba(241,111,92,1) 50%,rgba(246,41,12,1) 51%,rgba(240,47,23,1) 71%,rgba(231,56,39,1) 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top,  rgba(248,80,50,1) 0%,rgba(241,111,92,1) 50%,rgba(246,41,12,1) 51%,rgba(240,47,23,1) 71%,rgba(231,56,39,1) 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top,  rgba(248,80,50,1) 0%,rgba(241,111,92,1) 50%,rgba(246,41,12,1) 51%,rgba(240,47,23,1) 71%,rgba(231,56,39,1) 100%); /* IE10+ */
+				background: linear-gradient(to bottom,  rgba(248,80,50,1) 0%,rgba(241,111,92,1) 50%,rgba(246,41,12,1) 51%,rgba(240,47,23,1) 71%,rgba(231,56,39,1) 100%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', endColorstr='#e73827',GradientType=0 ); /* IE6-9 */
+				border-radius: 5px;
+				color: #fff;
+			}
+			.connect{
+				background: rgb(115,136,10); /* Old browsers */
+				background: -moz-linear-gradient(top,  rgba(165, 184, 74, 1) 0%, rgba(115,136,10,1) 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(165, 184, 74, 1)), color-stop(100%,rgba(115,136,10,1))); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top,  rgba(165, 184, 74, 1) 0%,rgba(115,136,10,1) 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top,  rgba(165, 184, 74, 1) 0%,rgba(115,136,10,1) 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top,  rgba(165, 184, 74, 1) 0%,rgba(115,136,10,1) 100%); /* IE10+ */
+				background: linear-gradient(to bottom,  rgba(165, 184, 74, 1) 0%,rgba(115,136,10,1) 100%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#73880a', endColorstr='#73880a',GradientType=0 ); /* IE6-9 */
+				color:#fff;
+				font-size:17px;
+				border-radius:5px;
+			}
+			input[type=submit]{
+				background:#016ABC;
+				color: #fff;
+				border: 1px solid #eee;
+				border-radius: 20px;
+				cursor:pointer;
+			}
+			.footitem{
+				background: rgb(254,255,232); /* Old browsers */
+				background: -moz-linear-gradient(top,  rgba(254,255,232,1) 0%, rgba(214,219,191,1) 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(254,255,232,1)), color-stop(100%,rgba(214,219,191,1))); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top,  rgba(254,255,232,1) 0%,rgba(214,219,191,1) 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top,  rgba(254,255,232,1) 0%,rgba(214,219,191,1) 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top,  rgba(254,255,232,1) 0%,rgba(214,219,191,1) 100%); /* IE10+ */
+				background: linear-gradient(to bottom,  rgba(254,255,232,1) 0%,rgba(214,219,191,1) 100%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffe8', endColorstr='#d6dbbf',GradientType=0 ); /* IE6-9 */
+				border-radius:10px;
+				float:left;
+				margin-right:10px;
+				border:solid 2px #999;
+			}
+			#footer{
+				padding-top:10px;
+				bottom:20px;
+				margin-left:25px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="container">
+				<div class="heading">
+					Ticket Details
+				</div>
+				<div class="formdiv">
+					<div class="field">
+					Source<br>
+						<select>
+							<option value="1" selected>Airoli</option>
+							<option value="2">Borivali</option>
+							<option value="3">Dadar</option>
+							<option value="4">Ghatkopar</option>
+							<option value="5">Vile Parle</option>
+						</select>
+					</div>
+				</div>
+				<div class="formdiv">
+					<div class="field">
+					Destination<br>
+						<select>
+							<option value="1">Airoli</option>
+							<option value="2">Borivali</option>
+							<option value="3" selected>Dadar</option>
+							<option value="4">Ghatkopar</option>
+							<option value="5">Vile Parle</option>
+						</select>
+					</div>
+				</div>
+				<div class="formdiv">
+					<div class="field">
+					Select Train<br>
+						<select>
+							<option value="1">Local 12:30</option>
+							<option value="2">Loacl 12:40</option>
+							<option value="3" selected>Fast Local 12:50</option>
+							<option value="4">Fast Local 12:55</option>
+							<option value="5">Intercity 13:12</option>
+						</select>
+					</div>
+				</div>
+				<div class="formdiv">
+					<div class="field">
+					No. of Tickets<br>
+						<input name="not" value="1" />
+					</div>
+				</div>
+				<div class="formdiv">
+					<div class="field">
+					ID Proof No.<br>
+						<select>
+							<option value="1">ADN12PR23</option>
+							<option value="2">TY23RP</option>
+							<option value="3" selected>EE11B036</option>
+						</select>
+					</div>
+				</div>
+				<div class="formdiv">
+					<a href="submit.html">
+						<div class="field">
+							<input name="not" type="submit" value="Submit" />
+						</div>
+					</a>
+				</div>
+				<div id="footer">
+				<div class="footitem">
+					<a href="index.html">
+						<img src="Home_icon_black.png" style="height:50px;">
+					</a>
+					<span style="margin-left: 2px; position: absolute;font-family: 'News Cycle';font-size: 14px;background: #473737;color: #fff;margin-top: 5px;padding-left: 5px;padding-right: 5px;border-radius: 5px;">
+						Home
+					</span>
+				</div>
+				<div class="footitem">
+					<a href="ticket.html">
+						<img src="ticket.png" style="height:50px;">
+					</a>
+					<span style="margin-left: 3px; position: absolute;font-family: 'News Cycle';font-size: 14px;background: #473737;color: #fff;margin-top: 5px;padding-left: 5px;padding-right: 5px;border-radius: 5px;">
+						Ticket
+					</span>
+				</div>
+				<div class="footitem">
+					<a href="p2pwallet.html">
+						<img src="wallet-icon-614x460.png" style="height:50px;  opacity:0.8;">
+					</a>
+					<span style="margin-left: 10px; position: absolute;font-family: 'News Cycle';font-size: 14px;background: #473737;color: #fff;margin-top: 5px;padding-left: 5px;padding-right: 5px;border-radius: 5px;">
+						Wallet
+					</span>
+				</div>
+				<div class="footitem">
+					<a href="idproof.html">
+						<img src="84-512.png" style="height:50px; opacity:0.8;">
+					</a>
+					<span style="margin-left: 2px; position: absolute;font-family: 'News Cycle';font-size: 14px;background: #473737;color: #fff;margin-top: 5px;padding-left: 5px;padding-right: 5px;border-radius: 5px;">
+						Profile
+					</span>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
