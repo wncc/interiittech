@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:minWidth="200dp" >
+
+    <Button
+        android:id="@+id/activity_upload_attachment_threeoptions_BtnTakePicture"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_upload_attachment_threeoptions_BtnTakePictureText"
+        android:background="#777"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_margin="5dp" />
+
+    <Button
+        android:id="@+id/activity_upload_attachment_threeoptions_BtnTakeVideo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_upload_attachment_threeoptions_BtnTakeVideoText"
+        android:background="#777"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_margin="5dp" />
+
+    <Button
+        android:id="@+id/activity_upload_attachment_threeoptions_BtnFromGallery"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_upload_attachment_threeoptions_BtnFromGalleryText"
+        android:background="#777"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_margin="5dp" />
+
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="false"
+        android:clickable="false"
+        android:contentDescription="@string/activity_registration_enterCode_image_contentDescription_text"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:longClickable="false"
+        android:scaleType="fitXY"
+        android:src="@drawable/title_bar1" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:textSize="20sp"
+        android:layout_marginTop="-35dp"
+        android:textColor="#ccc"
+        android:text="@string/app_name" />
+
+    <Button
+        android:id="@+id/activity_registration_enterCode_submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginTop="-30dp"
+        android:layout_gravity="right"
+        android:textSize="12sp"
+        android:paddingLeft="10dp"
+        android:text="@string/activity_registration_enterCode_button_text" />
+
+    <TextView
+        android:id="@+id/activity_registration_enterCode_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_registration_enterCode_text_verificationCode"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:paddingTop="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/activity_registration_enterCode_editVerificationCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="@string/activity_registration_enterCode_edit_hint_verificationCode"
+        android:inputType="number" >
+ 
+    </EditText>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp" >
+ 
+	    <TextView
+	        android:id="@+id/textView2"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/activity_registration_enterCode_text_onetimeregister"
+	        android:padding="10dp"
+	        android:layout_gravity="center"
+	        android:gravity="left"
+	        android:background="#585858"	        
+	        android:textColor="#fff" />
+	</ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+	<ImageView 
+	        android:src="@drawable/codecooks_splashscreen"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:contentDescription="@string/activity_splash_ImgViewContentDescription"/>
+	
+	<ProgressBar
+	    android:id="@+id/activity_splash_progressBar"
+	    style="?android:attr/progressBarStyleHorizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="25dp"
+	    android:layout_marginTop="-150dp"
+	    android:paddingLeft="15dp"
+	    android:paddingRight="15dp" />
+
+</LinearLayout>
