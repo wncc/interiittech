@@ -1,0 +1,291 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+   
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            	<TableRow
+            	    android:gravity="center">
+
+				        <TextView
+				            android:id="@+id/textView1"
+				            android:layout_width="wrap_content"
+				            android:layout_height="wrap_content"
+				            android:layout_gravity="center"
+				            android:text="Am I Eligible?"
+				            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            	</TableRow>
+            	<TableRow>
+            	    <TextView
+            	        android:text = "">
+            	        
+            	    </TextView>
+            	</TableRow>
+				<TableRow>
+					<TextView
+					    android:text="Name"
+					    android:textColor= "#EA5347"
+					    android:layout_weight = "1" >
+					</TextView>
+					
+
+					 <EditText
+					     android:id="@+id/editText1"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:ems="5"
+					     android:inputType="textPersonName" >
+
+					     <requestFocus />
+					 </EditText>
+
+			    </TableRow>
+			    <TableRow>
+			       
+			        
+			    </TableRow>
+            	<TableRow>
+            	    <TextView
+            	        android:text = "">
+            	        
+            	    </TextView>
+            	</TableRow>
+				<TableRow>
+					<TextView
+					    android:text="Age"
+					    android:textColor= "#EA5347"
+					    android:layout_weight = "1" >
+					</TextView>
+
+					<EditText
+					    android:id="@+id/editText2"
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:ems="5"
+					    android:inputType="phone" />
+
+			    </TableRow>
+			    <TableRow>
+			       
+			        
+			    </TableRow>
+			
+			    <TableRow>
+            	    <TextView
+            	        android:text = "">
+            	        
+            	    </TextView>
+            	</TableRow>
+				<TableRow>
+					<TextView
+					    android:text="Mobile No."
+					    android:textColor= "#EA5347"
+					    android:layout_weight = "1" >
+					</TextView>
+
+					<EditText
+					    android:id="@+id/editText3"
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:ems="5"
+					    android:inputType="phone" />
+
+			    </TableRow>
+			    <TableRow>
+			       
+			        
+			    </TableRow>
+			    
+			    <TableRow>
+            	</TableRow>
+				
+			    <TableRow>
+			    </TableRow>
+			    <TableRow>
+			       
+			        
+			    </TableRow>
+			
+			    <TableRow>
+            	    <TextView
+            	        android:text = "">
+            	        
+            	    </TextView>
+            	</TableRow>
+				<TableRow>
+
+					<TextView
+					    android:layout_height="wrap_content"
+					    android:layout_weight="1"
+					    android:text="Are U feeling well and healthy today?"
+					    android:textColor="#EA5347" >
+
+					</TextView>
+
+					 <TextView
+			            android:text=""
+			            android:layout_weight = "1"
+			            android:textStyle = "italic"	>		            
+			        </TextView>
+
+					 <CheckBox
+					     android:id="@+id/checkBox1"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:text="CheckBox" />
+
+			    </TableRow>
+			    <TableRow>
+			        
+			    </TableRow>
+			    
+			    <TableRow>
+            	    <TextView
+            	        android:text = "">
+            	        
+            	    </TextView>
+            	</TableRow>
+			        
+			    <TableRow>
+					<TextView
+					    android:text="Do you sleep last night?"
+					    android:textColor= "#EA5347"
+					    android:layout_weight = "1" >
+					</TextView>
+
+					 <TextView
+			            android:text=""
+			            android:layout_weight = "1"
+			            android:textStyle = "italic"	>		            
+			        </TextView>
+
+					 <CheckBox
+					     android:id="@+id/checkBox2"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:text="CheckBox" />
+
+			    </TableRow>
+			    <TableRow>
+			        
+			    </TableRow>
+			    
+			    <TableRow>
+            	    <TextView
+            	        android:text = "">
+            	        
+            	    </TextView>
+            	</TableRow>
+			    
+			    <TableRow>
+			       	<TextView
+					    android:text="Have u had any operation in last one year?"
+					    android:textColor= "#EA5347"
+					    android:layout_weight = "1" >
+					</TextView>
+
+					 <TextView
+			            android:text=""
+			            android:layout_weight = "1"
+			            android:textStyle = "italic"	>		            
+			        </TextView>
+			        <CheckBox
+					     android:id="@+id/checkBox1"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:text="CheckBox" />
+			    </TableRow>
+			    <TableRow>
+			        
+			    </TableRow>
+			    
+			    <TableRow>
+            	    <TextView
+            	        android:text = "">
+            	        
+            	    </TextView>
+            	</TableRow>
+            	
+			    <TableRow>
+					<TextView
+					    android:text="Have u taken alcohol in last 24 hrs ?"
+					    android:textColor= "#EA5347"
+					    android:layout_weight = "1" >
+					</TextView>
+
+					 <TextView
+			            android:text=""
+			            android:layout_weight = "1"
+			            android:textStyle = "italic"	>		            
+			        </TextView>
+			    		  <CheckBox
+					     android:id="@+id/checkBox3"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:text="CheckBox" />
+			    </TableRow>
+			    <TableRow>
+			        
+			    </TableRow>
+			    
+			    <TableRow>
+            	    <TextView
+            	        android:text = "">
+            	        
+            	    </TextView>
+            	</TableRow>
+			    
+			     	
+			    <TableRow>
+					<TextView
+					    android:text="Have u received blood  in last 1 year ?"
+					    android:textColor= "#EA5347"
+					    android:layout_weight = "1" >
+					</TextView>
+
+					 <TextView
+			            android:text=""
+			            android:layout_weight = "1"
+			            android:textStyle = "italic"	>		            
+			        </TextView>
+			          <CheckBox
+					     android:id="@+id/checkBox4"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:text="CheckBox" />
+			    </TableRow>
+			    <TableRow>
+			        
+			    </TableRow>
+			    
+			    <TableRow>
+            	    <TextView
+            	        android:text = "">
+            	        
+            	    </TextView>
+            	</TableRow>
+			    
+			    
+			    
+			    <TableRow
+			        android:id="@+id/tableRow3"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content" >
+			    </TableRow>
+
+			    
+	  
+        </TableLayout>
+    </ScrollView>
+
+</RelativeLayout>

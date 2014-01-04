@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>ISTP</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+<script type="text/javascript" src="js/jquery-1.4.2.min.js" ></script>
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/cufon-replace.js"></script>
+<script type="text/javascript" src="js/Myriad_Pro_300.font.js"></script>
+<script type="text/javascript" src="js/Myriad_Pro_400.font.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<!--[if lt IE 7]>`
+<link rel="stylesheet" href="css/ie6.css" type="text/css" media="screen">
+<script type="text/javascript" src="js/ie_png.js"></script>
+<script type="text/javascript">ie_png.fix('.png, footer, header nav ul li a, .nav-bg, .list li img');</script>
+<![endif]-->
+<!--[if lt IE 9]><script type="text/javascript" src="js/html5.js"></script><![endif]-->
+</head>
+<body id="page1">
+<!-- START PAGE SOURCE -->
+<div class="wrap">
+  <header>
+    <div class="container">
+      <h1><a href="">Interdisciplinary Sociotechnical Practicum</a></h1>
+      <nav>
+        <ul>
+          <li class="current"><a href="index.html" class="m1">Home Page</a></li>
+          <li><a href="about-course.html" class="m2">About Course</a></li>
+          <li><a href="projects.html" class="m3">Our Projects</a></li>
+          <li><a href="contact-us.html" class="m4">Contact Us</a></li>
+          <li class="last"><a href="wpi.html" class="m5">In Collabration with WPI</a></li>
+        </ul>
+      </nav>
+     </div>
+  </header>
+  <div class="container">
+    <aside>
+      <h3>Categories</h3>
+      <ul class="categories">
+        <li><span><a href="#">Student Info</a></span></li>
+        <li><span><a href="teachers.html">Teachers</a></span></li>
+        <li><span><a href="#des">Descriptions</a></span></li>
+        <li><span><a href="#basic">Course Information</a></span></li>
+        <li class="last"><span><a href="http://www.iitmandi.ac.in/academics/cal.html">Calendar</a></span></li>
+      </ul>
+      <h2>Updates</h2>
+      <ul class="news">
+        <li><strong>May 10, 2013</strong>
+          <h4><a href="#">Website Created</a></h4>
+       </ul>
+    </aside>
+    <section id="content">
+      <div id="banner">
+        <h2>Interdisciplinary  <span>Sociotechnical <span>Practicum  </span></span></h2>
+      </div>
+      <div class="inside">
+        <h2><a name="des"></a>Description <span></span></h2>
+        <p>The genesis of the<span class="txt1"> ISTP</span> comes from two facts.  One, development of useful products and technologies requires an understanding of the socio-economic context in which they will be used.  Two, introduction of a technology in a society often changes the society.  Thus, it is essential that the technology leaders of tomorrow understand the interaction of society and technology. It is observed that often the problems in the society require simple solutions and can be resolved easily with the right technological intervention.  </p>
+       	   <p class="p0">Through the ISTP, students will explore the various issues/problems of society, they will propose technology-based solutions for these, and they will evaluate the proposed solutions from social, technical, economical, environmental and other aspects.  Students are not expected to do technology or product development in the ISTP.  Where ever required and possible, help from the local administration, NGOs working in the region, etc shall be sought for the implementation of the solutions. Teams, preferably interdisciplinary, consisting of 4-6 students will be guided by the faculty.</p>
+		   <br />
+		    <h2><a name="basic"></a>Course<span> Information</span></h2>
+        <ul >
+          <li>
+            <h4>Course Name :</h4> Interdisciplinary Sociotechnical Practicum (ISTP)<br />
+          </li>
+          <li>
+            <h4>Course Code :</h4> DP301P<br />
+          </li>
+          <li >
+            <h4>Credits :</h4> 0-0-4<br />
+          </li>
+		  <li>
+			<h4>Students intended for :</h4> Third Year students<br />
+		  </li>
+		  <li>
+		    <h4>Category :</h4> Elective<br />
+		  </li>
+		  <li>
+            <h4>Semester :</h4> Odd or Even<br />
+		  </li>
+		  <li>
+		    <h4>Pre Requisite :</h4>Successful completion of 2nd year Design practicum<br />
+		  </li>
+        </ul>
+		<br />
+	  </div>
+    </section>
+  </div>
+</div>
+<footer>
+  <div class="footerlink">
+    <p class="lf">Copyright &copy; 2013 <a href="http://www.iitmandi.ac.in/">IIT MANDI</a> - All Rights Reserved</p>
+    <div style="clear:both;"></div>
+  </div>
+</footer>
+<script type="text/javascript"> Cufon.now(); </script>
+<!-- END PAGE SOURCE --></body>
+</html>

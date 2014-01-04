@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>ISTP</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+<script type="text/javascript" src="js/jquery-1.4.2.min.js" ></script>
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/cufon-replace.js"></script>
+<script type="text/javascript" src="js/Myriad_Pro_300.font.js"></script>
+<script type="text/javascript" src="js/Myriad_Pro_400.font.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<!--[if lt IE 7]>`
+<link rel="stylesheet" href="css/ie6.css" type="text/css" media="screen">
+<script type="text/javascript" src="js/ie_png.js"></script>
+<script type="text/javascript">ie_png.fix('.png, footer, header nav ul li a, .nav-bg, .list li img');</script>
+<![endif]-->
+<!--[if lt IE 9]><script type="text/javascript" src="js/html5.js"></script><![endif]-->
+</head>
+<body id="page1">
+<!-- START PAGE SOURCE -->
+<div class="wrap">
+  <header>
+    <div class="container">
+      <h1><a href="">Interdisciplinary Sociotechnical Practicum</a></h1>
+      <nav>
+        <ul>
+          <li class="current"><a href="index.html" class="m1">Home</a></li>
+          <li><a href="bb.php" class="m2">Blood Banks</a></li>
+          <li><a href="bdd.php" class="m3">Blood Donation Drives</a></li>
+          <li><a href="emergencies.php" class="m4">Emergencies</a></li>
+          
+        </ul>
+      </nav>
+     </div>
+  </header>
+  
+    <section id="content">
+      
+      <div class="inside">
+        <h2><a name="des"></a>Description <span></span></h2>
+        <p>The genesis of the<span class="txt1"> ISTP</span> comes from two facts.  One, development of useful products and technologies requires an understanding of the socio-economic context in which they will be used.  Two, introduction of a technology in a society often changes the society.  Thus, it is essential that the technology leaders of tomorrow understand the interaction of society and technology. It is observed that often the problems in the society require simple solutions and can be resolved easily with the right technological intervention.  </p>
+       	   <p class="p0">Through the ISTP, students will explore the various issues/problems of society, they will propose technology-based solutions for these, and they will evaluate the proposed solutions from social, technical, economical, environmental and other aspects.  Students are not expected to do technology or product development in the ISTP.  Where ever required and possible, help from the local administration, NGOs working in the region, etc shall be sought for the implementation of the solutions. Teams, preferably interdisciplinary, consisting of 4-6 students will be guided by the faculty.</p>
+		   <br />
+		   
+<footer>
+  <div class="footerlink">
+    <p class="lf">Copyright &copy; 2013 <a href="http://www.iitmandi.ac.in/">IIT MANDI</a></p>
+    <div style="clear:both;"></div>
+  </div>
+</footer>
+<script type="text/javascript"> Cufon.now(); </script>
+<!-- END PAGE SOURCE --></body>
+</html>
+
