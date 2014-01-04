@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".SubmitActivity" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="Shout!" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_alignParentLeft="true"
+        android:text="Log In" />
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1"
+        android:shrinkColumns="*"
+        android:stretchColumns="*" >
+ 
+        <TableRow
+            android:id="@+id/tableRow1"  
+        	android:layout_height="wrap_content"  
+        	android:layout_width="match_parent"  
+        	android:gravity="center_horizontal">  
+            <TextView 
+                android:id="@+id/tView1"  
+            	android:text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."   
+            	android:typeface="serif">
+            </TextView>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow2" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:text="Promote! (10)"
+                android:id="@+id/b1"></Button>
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow1"  
+        	android:layout_height="wrap_content"  
+        	android:layout_width="match_parent"  
+        	android:gravity="center_horizontal">  
+            <TextView 
+                android:id="@+id/tView1"  
+            	android:text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."   
+            	android:typeface="serif">
+            </TextView>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow2" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:text="Promote! (5)"
+                android:id="@+id/b1"></Button>
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow1"  
+        	android:layout_height="wrap_content"  
+        	android:layout_width="match_parent"  
+        	android:gravity="center_horizontal">  
+            <TextView 
+                android:id="@+id/tView1"  
+            	android:text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."   
+            	android:typeface="serif">
+            </TextView>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow2" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:text="Promote! (3)"
+                android:id="@+id/b1"></Button>
+        </TableRow>
+
+     </TableLayout>
+     
+    
+</RelativeLayout>
